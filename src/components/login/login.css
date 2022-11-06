@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid lightgray;
+    width: 50%;
+    min-width: 285px;
+    margin: 60px auto;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    background-color: whitesmoke;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 20vw;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px 0 10px 10px;
+}
+
+button {
+    background-color: rgb(88,153,223);
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 9px 7px;
+    margin: 15px 0;
+    width: 80px;
+    cursor: pointer;
+}
+
+.login-links {
+    border-top: 1px solid lightgray;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+    font-size: small;
+    box-sizing: border-box;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a {
+    color: rgb(88,153,223);
+}
+
+.error {
+    color: red;
+    border: red;
+}
