@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# UI Challenge React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You've made it through the phone screen and had a great chat with the technical lead at the organization you're applying for! They'd like you to complete a technical assessment to show your programming chops. 
 
-## Available Scripts
+This assignment is based on a real technical assessment that was given for a frontend developer interview. In the real world scenario, the developer would be given about a week to work on this and submit their code for review. Depending on the organization and who you're interviewing with, they might give you some feedback and ask you to implement those changes as well.  
 
-In the project directory, you can run:
+## Objectives: 
 
-### `npm start`
+- Developers will be able to see a real-world technical assessment for a frontend role. 
+- Developers will be able to digest the challenge and ask clarifying questions.
+- Developers will be able to build an application that meets the MVP requirements for the challenge.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- CSS & Responsive Design
+- React Components & State
+- Semantic & Accessible Forms
+- Error Handling
+- Unit Testing
 
-### `npm test`
+## Task:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Develop a simple login page using **ReactJS**. The mockup from the design team is below: 
 
-### `npm run build`
+![Screen Shot 2022-03-28 at 2 32 55 PM](https://media.git.generalassemb.ly/user/21811/files/136b0a00-aead-11ec-9b49-c16ed440dbd2)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The logo asset is available [here](https://media.git.generalassemb.ly/user/21811/files/546c2880-af58-11ec-917c-d9bd1e9dbecd). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The sans-serif font is Open Sans and the serif font is Roboto Slab. Both are available from Google Fonts. The blue accent color is rgb(88,153,223). 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See a live example [here](https://react-login-demo.netlify.app/).
 
-### `npm run eject`
+## Requirements:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Note that the following feature level breakdown is for the purposes of this lesson. In the real world setting, all the features listed below would be required. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### MVP: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ ] Faithful reproduction of the design.
+- [ ] Email needs to be valid.
+- [ ] Password needs to be at least 8 characters.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Silver: 
 
-## Learn More
+- [ ] There needs to be validation messages that display when user doesn't enter correct data.
+- [ ] Layout should be responsive across screen sizes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Gold: 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] Include link to reset password page.
+- [ ] Include link to sign up page.
+- [ ] At least 1 test to verify one of the functions works correctly.
 
-### Code Splitting
+## Deliverable (pick one):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1.  **Issue ticket with link to repository containing code along with link to login page.**
+2.  Zip file containing code along with instructions on how to run code.
+3.  An issue ticket with a link to your github repository and the live, deployed link. 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Source: [Esin Saribudak](https://git.generalassemb.ly/esin87)_

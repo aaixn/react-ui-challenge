@@ -33,10 +33,6 @@ const Login = () => {
         password.length < 8 ? setErrorPassLength(true) : setErrorPassLength(false)
     }
 
-    // const valid = () => {
-    //     errorEmail === false && errorAt === false && errorDot === false && errorPassword === false && errorPassLength === false ? 
-    // }
-
 
     return (
         <div className="login">
